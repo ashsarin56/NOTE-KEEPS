@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+}
+.hero{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 1rem;
+    background-color: blueviolet;
+    border-style: none;
+    box-shadow: 5px 5px 1rem;
+    transition: 1s;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: large;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+.container{
+    margin-left: 5rem;
+   height: 100vh;
+}
+.container h1{
+    color: aliceblue;
+    margin:2rem 0 2rem 0;
+}
+.notes{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.box{
+    background-color: aliceblue;
+    margin: 2rem;
+    height: 13rem;
+    width: 20rem;
+    overflow: auto;
+    font-weight: 400;
+    color: #212121;
+    font-size: large;
+    letter-spacing: 1;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.del-btn{
+    height: 1rem;
+    width: 2rem;
+}
